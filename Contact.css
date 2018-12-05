@@ -1,0 +1,232 @@
+﻿body {
+    width:1450px;
+    height:auto;
+    margin:0;
+}
+
+.title{
+    float:left;
+    margin-top:-70px;
+}
+
+.title img{
+    height:201px;
+    width:441px;
+}
+
+.search{
+    position:relative;
+    margin-left:200px;
+    margin-top:20px;
+}
+
+.searchBox{
+    border:1px solid black;
+    border-radius:20px;
+    width:300px;
+    height:40px;
+    float:left;
+    position:relative;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+.searchBox input{
+    width:240px;
+    height:37px;
+    position:absolute;
+    z-index:2;
+    border:none;   
+    margin-left:13px;
+    margin-top:2.5px;
+}
+
+.searching{
+    width:25px;
+    height:auto;
+    position:absolute;
+    margin-left:265px;
+    z-index:1;
+    margin-top:5.5px;
+}
+
+.log{
+    padding-top:20px;
+    font-size:18px;
+    font-weight:500;
+    font-family:Segoe UI Symbol;
+}
+
+.log a{
+    text-decoration:none;
+    color:black;
+}
+.log img{
+    width:40px;
+    height:40px;
+}
+.log span{
+    padding-left:10px;
+}
+.option{
+    margin-left:300px;
+    position:absolute;
+    z-index:3;
+}
+.option2{
+    margin-left:430px;
+    position:absolute;
+    z-index:3;
+}
+
+.nav{
+    margin-top:60px;
+    position:absolute;
+    margin-left:450px;
+    z-index:2;
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+    font-family:'Segoe Print';
+    font-size:x-large;
+    font-weight:900;
+    z-index:100;
+}
+.nav #navName li{
+    padding-left:50px;
+    list-style-type:none;
+    position:relative;
+    display:inline;
+    float:left;
+}
+.nav #dropdown1, #dropdown2, #dropdown3{
+    display:none;
+    margin-top:0;
+    background-color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.nav #dropdown3 li{
+    margin-left:-70px;
+    clear:both;
+}
+
+.nav #dropdown2 li{
+    margin-left:-50px;
+}
+
+.nav #dropdown1{
+    position:absolute;
+    margin-left:-130px;
+    margin-top:40px;
+    width:120px;
+
+}
+.nav #dropdown1 li{
+    display:inline;
+    float:left;
+    margin-left:-50px;
+}
+.nav #dropdown2{
+    position:absolute;
+    margin-left:-120px;
+    margin-top:40px;
+    width:100px;
+
+}
+.nav #dropdown3{
+    position:absolute;
+    margin-left:-100px;
+    margin-top:40px;
+    width:100px;
+}
+
+#table{
+    background-image:url(Contact/images/road.jpg);
+    background-size:1450px 700px;
+    width:1440px;
+    height:700px;
+    margin-top:150px;
+}
+
+#footer{
+    height:300px;
+    width:1450px;
+    background-color:#101115;
+    opacity:0.9;
+    position:absolute;
+    top:890px;
+}
+
+
+
+#footer .follow{
+    color:white;
+    font-size:20px;
+    margin-top:50px;
+    margin-left:150px;
+}
+
+#footer .share{
+    margin-left:250px;
+}
+#footer .share img{
+    height:50px;
+    width:50px;
+    margin-left:10px;
+}
+
+#footer .instruction{
+    color:white;
+    margin-left:900px;
+}
+
+#tableCon{
+    position:absolute;
+    top:400px;
+    left:450px;
+    width:600px;
+    height:400px;
+    background-color:#5f5e5e;
+    opacity:0.7;
+    border-radius:10px;
+
+}
+
+#tableCon .title{
+    margin-top:20px;
+    margin-left:230px;
+    font-size:25px;
+}
+
+#tableCon .email{
+    margin-top:100px;
+}
+
+#tableCon p{
+    color:white;
+    margin-left:130px;
+
+}
+
+#tableCon input{
+    position:absolute;
+    left:260px;
+}
+
+#tableCon .advise input{
+    width:250px;
+    height:80px;
+
+}
+
+#tableCon .btn{
+    margin-left:250px;
+    margin-top:80px;
+    width:80px;
+    height:30px;
+    cursor:pointer;
+    font-weight:600;
+}

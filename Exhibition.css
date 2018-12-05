@@ -1,0 +1,427 @@
+﻿body {
+    width:1450px;
+    height:auto;
+    margin:0;
+}
+.title{
+    float:left;
+    margin-top:-70px;
+}
+
+.title img{
+    height:201px;
+    width:441px;
+}
+
+.search{
+    position:relative;
+    margin-left:200px;
+    margin-top:20px;
+}
+
+.searchBox{
+    border:1px solid black;
+    border-radius:20px;
+    width:300px;
+    height:40px;
+    float:left;
+    position:relative;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+.searchBox input{
+    width:240px;
+    height:37px;
+    position:absolute;
+    z-index:2;
+    border:none;   
+    margin-left:13px;
+    margin-top:2.5px;
+}
+
+.searching{
+    width:25px;
+    height:auto;
+    position:absolute;
+    margin-left:265px;
+    z-index:1;
+    margin-top:5.5px;
+}
+
+.log{
+    padding-top:20px;
+    font-size:18px;
+    font-weight:500;
+    font-family:Segoe UI Symbol;
+}
+
+.log a{
+    text-decoration:none;
+    color:black;
+}
+.log img{
+    width:40px;
+    height:40px;
+}
+.log span{
+    padding-left:10px;
+}
+.option{
+    margin-left:300px;
+    position:absolute;
+    z-index:3;
+}
+.option2{
+    margin-left:430px;
+    position:absolute;
+    z-index:3;
+}
+
+.nav{
+    margin-top:60px;
+    position:absolute;
+    margin-left:450px;
+    z-index:2;
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+    font-family:'Segoe Print';
+    font-size:x-large;
+    font-weight:900;
+    z-index:100;
+}
+.nav #navName li{
+    padding-left:50px;
+    list-style-type:none;
+    position:relative;
+    display:inline;
+    float:left;
+}
+.nav #dropdown1, #dropdown2, #dropdown3{
+    display:none;
+    margin-top:0;
+    background-color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.nav #dropdown3 li{
+    margin-left:-70px;
+    clear:both;
+}
+
+.nav #dropdown2 li{
+    margin-left:-50px;
+}
+
+.nav #dropdown1{
+    position:absolute;
+    margin-left:-130px;
+    margin-top:40px;
+    width:120px;
+
+}
+.nav #dropdown1 li{
+    display:inline;
+    float:left;
+    margin-left:-50px;
+}
+.nav #dropdown2{
+    position:absolute;
+    margin-left:-120px;
+    margin-top:40px;
+    width:100px;
+
+}
+.nav #dropdown3{
+    position:absolute;
+    margin-left:-100px;
+    margin-top:40px;
+    width:100px;
+}
+
+#header{
+    height:200px;
+}
+
+#infor{
+    background-color:#fafafa;
+    margin-left:90px;
+    border:1px solid #e4e7ec;
+    width:300px;
+    height:400px;
+    float:left;
+
+}
+
+#infor .profilePhoto img{
+    width:70px;
+    height:70px;
+}
+
+#infor .profilePhoto{
+    border:1px solid #c0c2c8;
+    width:70px;
+    height:70px;
+    background-color:#e5e7ed;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+#infor .username{
+    position:relative;
+    margin-left:120px;
+    top:-45px;
+    font-size:20px;
+    font-weight:500;
+    
+}
+
+#infor .inforBox{
+    width:99px;
+    height:80px;
+    border:1px solid #e4e7ec;
+    float:left;
+    border-left:none;
+    border-right:none;
+}
+#infor .inforBoxs{
+    width:99px;
+    height:80px;
+    border:1px solid #e4e7ec;
+    float:left;
+}
+#infor .inforBox p{
+    text-align:center;
+}
+#infor .inforBoxs p{
+    text-align:center;
+}
+
+#infor .yourContent{
+    height:100px;
+    width:299px;
+    margin-top:150px;
+}
+
+#infor .yourContent p{
+    text-align:center;
+    vertical-align:middle;
+}
+
+#exhi{
+    background-color:#fafafa;
+    margin-left:20px;
+    border:1px solid #e4e7ec;
+    width:300px;
+    height:400px;
+    float:left;
+    margin-bottom:50px;
+}
+
+#block{
+    height:400px;
+    width:70px;
+    float:left;
+    clear:left;
+}
+
+
+#article .picture img{
+    width:200px;
+    height:auto;
+    margin-left:50px;
+    border:1px solid grey;
+}
+
+#article .picture{
+    border-bottom:1px solid #e4e7ec;
+    cursor:pointer;
+}
+
+#article .picture .copy{
+    display:none;
+}
+
+#article .picture2 img{
+    width:200px;
+    height:auto;
+    margin-left:50px;
+    border:1px solid grey;
+}
+
+#article .picture2{
+    border-bottom:1px solid #e4e7ec;
+    cursor:pointer;
+}
+
+#article .picture2 .copy{
+    display:none;
+}
+
+#article .picture2 .copy2{
+    display:none;
+}
+
+#article .picture3 img{
+    width:200px;
+    height:auto;
+    margin-left:50px;
+    border:1px solid grey;
+}
+
+#article .picture3{
+    border-bottom:1px solid #e4e7ec;
+    cursor:pointer;
+}
+
+#article .picture3 .copy{
+    display:none;
+}
+
+#article .picture3 .copy2{
+    display:none;
+}
+
+
+#exhi .instru{
+    width:299px;
+    height:50px;
+
+}
+#exhi .author{
+    float:left;
+    margin-left:5px;
+}
+
+
+#exhi .name{
+    float:left;
+    margin-top:20px;
+}
+#exhi .instru .img{
+    background-color:white;
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+#exhi .instru img{
+    width:30px;
+    height:30px;
+}
+#exhi .instru .detail{
+    float:left;
+    clear:left;
+    margin-left:5px;
+}
+#exhi .instru p{
+    float:left;
+    width:299px;
+    text-align:center;
+    margin-top:-10px;
+}
+#article .like img{
+    width:40px;
+    height:40px;
+}
+
+#article .like{
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:585px;
+    margin-left:255px;
+    cursor:pointer;
+}
+
+#article .like2 img{
+    width:40px;
+    height:40px;
+}
+
+#article .like2{
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:1037px;
+    margin-left:255px;
+    cursor:pointer;
+}
+
+#article .like3 img{
+    width:40px;
+    height:40px;
+}
+
+#article .like3{
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:1490px;
+    margin-left:255px;
+    cursor:pointer;
+}
+
+
+#footer{
+    height:300px;
+    width:1450px;
+    background-color:#808080;
+    opacity:0.9;
+    position:absolute;
+    top:1600px;
+}
+
+
+
+#footer .follow{
+    color:white;
+    font-size:20px;
+    margin-top:50px;
+    margin-left:150px;
+}
+
+#footer .share{
+    margin-left:250px;
+}
+#footer .share img{
+    height:50px;
+    width:50px;
+    margin-left:10px;
+}
+
+#footer .instruction{
+    color:white;
+    margin-left:900px;
+}
+
+#max{
+    display:none;
+    width:1440px;
+    height:800px;
+    background-color:black;
+    opacity:0.4;
+    position:fixed;
+    top:100px;
+}
+
+#maxImage{
+    display:none;
+}
+
+#max img{
+    width:70px;
+    height:70px;
+
+}
+
+#max .close{
+    margin-left:1350px;
+    z-index:3;
+    margin-top:20px;
+    cursor:pointer;
+}
